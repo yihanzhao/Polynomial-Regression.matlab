@@ -1,4 +1,5 @@
-# Polynomial-Regression
+# Polynomial-Regression in matlab
+There is a function file of polynomial regression together with an example. 
 To test which value of d is good for this dataset, I let d value from 0 to 50 and find the one that minimizes test error. 
 Concerning testing error, it should be calculated from testing data points, which are randomly selected from the whole dataset. 
 In this case with 500 data, I use 10-fold cross validation that divides the whole dataset into 10 subsets and randomly select one set as testing dataset and the other 9 as training data. 
